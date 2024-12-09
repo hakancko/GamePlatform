@@ -1,0 +1,23 @@
+.sidebar {
+    display: flex;
+    width: 200px;
+    min-height: 2100vh !important;
+    color: white;
+    position: fixed;
+    background-color: #031f3b;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    text-decoration:underline
+  }
